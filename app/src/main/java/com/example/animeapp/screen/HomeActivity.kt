@@ -17,7 +17,7 @@ import com.example.animeapp.model.AnimeResponse
 import com.example.animeapp.model.Images
 import com.example.animeapp.model.Jpg
 import com.example.animeapp.retrofit.ApiClient
-import com.example.animeapp.room.AnimeDB
+import com.example.animeapp.room.db.AnimeDB
 import com.example.animeapp.room.AnimeRepository
 import com.example.animeapp.utils.NetworkCallback
 import retrofit2.Call
