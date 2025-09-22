@@ -48,7 +48,7 @@ class HomeActivity : AppCompatActivity() {
         networkCallback = NetworkCallback(this) { isOnline ->
             runOnUiThread {
                 if (isOnline) {
-                    Toast.makeText(this, "You are Online", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Device Online, syncing data...", Toast.LENGTH_SHORT).show()
                 } else {
                     Toast.makeText(this, "You are Offline", Toast.LENGTH_SHORT).show()
                 }
